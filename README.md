@@ -7,6 +7,8 @@ ECCV 2024 & Welcome to the official repository of GenerateCT, a pioneering work 
 </p>
 
 
+[![Hugging Face artifacts](https://img.shields.io/badge/🤗%20Hugging%20Face%20-Model-green)](https://huggingface.co/generatect/GenerateCT)
+
 ## Requirements
 
 Before you start, you must install the necessary dependencies. To do so, execute the following commands:
@@ -93,6 +95,8 @@ Our performance metrics detail the sampling times for generating and upscaling 3
 
 For your convenience, we provide access to pretrained models directly. These models have been trained on our paired radiological report and chest CT volume dataset, as elaborated in the paper.
 
+All models are made available on 🤗 Hugging Face: https://huggingface.co/generatect/GenerateCT.
+
 You can download the models from the following links:
 
 - **CT-ViT Model**: [Download Here](https://huggingface.co/generatect/GenerateCT/resolve/main/pretrained_models/ctvit_pretrained.pt)
@@ -108,6 +112,8 @@ By leveraging these pretrained models, you can easily reproduce our results or f
 
 Explore and experiment with our example data, specifically curated for training the CT-ViT, Transformer, and Super Resolution Diffusion networks.
 
+The training data has been made available on on 🤗 Hugging Face: https://huggingface.co/generatect/GenerateCT.
+
 - [Download Example Data](https://huggingface.co/generatect/GenerateCT/resolve/main/example_data.zip)
 
 To access all 3D chest CT volumes and corresponding radiology reports used in the development of GenerateCT, please visit [CT-RATE](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE).
@@ -116,6 +122,8 @@ To access all 3D chest CT volumes and corresponding radiology reports used in th
 ## Generated Data
 
 Explore our generated dataset, consisting of 2286 synthetic CT volumes and their corresponding text prompts. 
+
+The generated data has been made available on on 🤗 Hugging Face: https://huggingface.co/generatect/GenerateCT.
 
 - [Download Generated Dataset](https://huggingface.co/generatect/GenerateCT/tree/main/generated_data)
 
